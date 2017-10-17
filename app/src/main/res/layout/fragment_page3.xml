@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="50dp"
+    android:orientation="vertical"
+    tools:context="com.example.yoma.maths2.Fragments.Page3">
+
+
+    <Button
+        android:id="@+id/btnFoundation"
+        style="@style/buttonStyle"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:background="@drawable/button"
+        android:elevation="3dp"
+        android:drawableRight="@drawable/icon_selector"
+        android:text="1. Number grouping and arrangement" />
+
+    <Button
+        android:id="@+id/btnMain"
+        style="@style/buttonStyle"
+        android:background="@drawable/button"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="8dp"
+        android:drawableRight="@drawable/icon_selector"
+        android:enabled="false"
+        android:text="2. Development of the number system" />
+
+    <Button
+        style="@style/buttonStyle"
+        android:background="@drawable/button"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="8dp"
+        android:textAlignment="textStart"
+        android:drawableRight="@drawable/icon_selector"
+        android:enabled="false"
+        android:text="3. Basic operation" />
+    <Button
+        style="@style/buttonStyle"
+        android:background="@drawable/button"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="8dp"
+        android:textAlignment="textStart"
+        android:drawableRight="@drawable/icon_selector"
+        android:enabled="false"
+        android:text="4. Factors and Multiples" />
+    <Button
+        style="@style/buttonStyle"
+        android:background="@drawable/button"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="8dp"
+        android:textAlignment="textStart"
+        android:drawableRight="@drawable/icon_selector"
+        android:enabled="false"
+        android:text="5. Fractions" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/nextbutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:text="next" />
+
+        <Button
+            android:id="@+id/previousbutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|start"
+            android:elevation="3dp"
+            android:layout_margin="16dp"
+            android:text="previous"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</LinearLayout>

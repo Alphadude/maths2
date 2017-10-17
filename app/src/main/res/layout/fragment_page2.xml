@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoma.maths2.Fragments.Page2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="sans-serif"
+        android:padding="4dp"
+        android:text="Welcome to the world of maths, here every kid can solve. But to be candid, you have your own part to play in order to make good use of this app. Below is one basic rue to abide with: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#dec03c"
+        android:fontFamily="sans-serif"
+        android:padding="4dp"
+        android:text="Follow the guidelines and instructions in this app carefully. Dont't try to play smart, patience is a virtue."
+        android:textSize="20sp" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="sans-serif"
+        android:padding="4dp"
+        android:text="This app was developed base on the fact that the reader knows how to count, write and spell numbers. So, if you have issues with that, please download a special app -&quot;VUN COUNTING APP&quot;. You can also recommend it to a friend"
+        android:textSize="20sp" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/nextbutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:text="next" />
+
+        <Button
+            android:id="@+id/previousbutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:background="@drawable/button"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|start"
+            android:elevation="3dp"
+            android:layout_margin="16dp"
+            android:text="previous"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+
+</LinearLayout>

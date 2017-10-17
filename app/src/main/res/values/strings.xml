@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maths2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_page_text_2">An app for Junior High(Secondary) School Students(\"aged 10 - 15\") and any other interested persons above 15 who meeds a self-teaching maths app</string>
+</resources>
