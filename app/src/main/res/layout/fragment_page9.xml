@@ -2,8 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yoma.maths2.Fragments.Page8">
-
+    tools:context="com.example.yoma.maths2.Fragments.Page9">
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,20 +12,6 @@
         tools:context="com.rudigo.android.maths.BeginnerLevelCounting">
 
         <TextView
-            android:id="@+id/ftitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#000"
-            android:layout_marginTop="20dp"
-            android:fontFamily="sans-serif"
-            android:gravity="left"
-            android:padding="4dp"
-            android:text="Let's take some illustrations"
-            android:textSize="23sp"
-            android:textStyle="bold" />
-
-
-        <TextView
             android:id="@+id/body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +19,7 @@
             android:fontFamily="sans-serif"
             android:textColor="#000"
             android:padding="4dp"
-            android:text="The symbols Th stans for thousand(s), H stands for Hundred(s), T stands for ten(s) and U stands for unit(s).\n\n First, we take the numbers 4 and 7 which are less than 10 and the number 10.\n\n 4 = 1+1+1+1 = 4 ones or 4 units = 4U\n7 =1+1+1+1+1+1+1=7 ones or 7 units =7U\n10 =1+1+1+1+1+1+1+1+1+1 = 10U or 1 ten and 0U = 1T and 0U\n*We say 10 units = 1 ten (take note of this) "
+            android:text="A close observation of the umber grouping done in the previous illustration reveals that it is in line with the names of the numbers =, 3124 is named three thousand one hundred and twenty four . From the name of the number, we can eter its number grouping Th,H,T and U very easily. Thus, we have 3124 as 3Th,1H,2T and 4U which talies with its name. "
             android:textSize="18sp" />
 
         <TextView
@@ -45,19 +30,46 @@
             android:layout_marginBottom="4dp"
             android:fontFamily="sans-serif"
             android:padding="4dp"
-            android:text="Next, we take the numbers 34 and 63 which are greater than 10 but less than 100 and the number 100\n34 = 10+10+10+1+1+1+1 = 3T and 4U\n63 = 10+10+10+10+10+10+1+1+1 = 6T and 3U\n100 = 10+10+10+10+10+10+10+10+10+10 = 10T or 1H\n*We say 10 tens = 1 hundred (take note of this)"
+            android:text="3124 - three thousand, one hundred and "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="                      3TH                     1H "
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="              twenty four "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="                 2T     4U "
             android:textSize="18sp" />
 
 
         <TextView
-            android:id="@+id/body3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#000"
             android:layout_marginBottom="4dp"
             android:fontFamily="sans-serif"
-            android:textColor="#000"
             android:padding="4dp"
-            android:text="Next, we take the numbers 241 and 726 which are greater than 100 but less than 1000 and the number 1000\n241 = 100+100+10+10+10+10+1 = 2H,4T and 1U\n726 = 100+100+100+100+100+100+100+10+10+1+1+1+1+1+1 = 7H,2T and 6U\n1000 = 100+100+100+100+100+100+100+100+100+100 = 10H or 1Th\n*We say 10 hundred = 1 thousand (take note of this)"
+            android:text="3124 - 3Th, 1H, 2T, 4U "
             android:textSize="18sp" />
 
         <FrameLayout
@@ -73,7 +85,7 @@
                 android:elevation="3dp"
                 android:layout_gravity="bottom|end"
                 android:layout_marginBottom="16dp"
-                android:text=""
+                android:text="Next"
                 android:textAllCaps="false" />
 
             <Button
@@ -93,5 +105,7 @@
 
 
     </LinearLayout>
+
+
 
 </ScrollView>

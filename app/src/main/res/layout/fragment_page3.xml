@@ -61,32 +61,5 @@
         android:enabled="false"
         android:text="5. Fractions" />
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <Button
-            android:id="@+id/nextbutton"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
-            android:background="@drawable/button"
-            android:layout_gravity="bottom|end"
-            android:layout_margin="16dp"
-            android:text="next" />
-
-        <Button
-            android:id="@+id/previousbutton"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="150dp"
-            android:background="@drawable/button"
-            android:layout_height="50dp"
-            android:layout_gravity="bottom|start"
-            android:elevation="3dp"
-            android:layout_margin="16dp"
-            android:text="previous"
-            android:visibility="gone" />
-    </FrameLayout>
-
 
 </LinearLayout>

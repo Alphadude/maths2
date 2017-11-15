@@ -1,0 +1,264 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoma.maths2.Fragments.Page28">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="a.  17"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="  =  "
+                    android:textSize="18sp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:padding="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:src="@drawable/tally2"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="b. 21"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="  =  "
+                    android:textSize="18sp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally1"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="c. 33"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="  =  "
+                    android:textSize="18sp" />
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally3"/>
+
+            </TableRow>
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/page28"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ff0000"
+            android:text="Caution"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:text="@string/page28_2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text=" 5 + 5 + 5 + 5 + 5 + 5 + 5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text=" 10 + 15 + 20 + 25 + 30 + 35"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/page22_4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="These Numbers should be read in your mind as you make the tally in group of five."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="But for those that have good division skill, press the next button below to see what to do. But for others, dont bother, the next programme has been designed to give you good division skills. though you can still read what i shared in the next view."/>
+        <Button
+            android:id="@+id/nextbutton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:text="next" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

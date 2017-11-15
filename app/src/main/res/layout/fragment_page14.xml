@@ -1,40 +1,39 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yoma.maths2.Fragments.Page6">
+    tools:context="com.example.yoma.maths2.Fragments.Page14">
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:context="com.rudigo.android.maths.BeginnerLevelCounting">
 
         <TextView
-            android:id="@+id/title_text"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:textColor="#000"
-            android:fontFamily="sans-serif"
-            android:gravity="center"
-            android:padding="4dp"
-            android:text="Number Grouping"
-            android:textSize="23sp"
-            android:textStyle="bold" />
-
-
-        <TextView
-            android:id="@+id/text_body"
+            android:id="@+id/body1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            android:textColor="#252525"
+            android:text="4.   0Th, 1h, 0T and 1U = 0101\n5.   1Th, 6H, 8T and 2U = 1682\n6.   0Th, 9H, 0T, 0U = 0900\n7.   0Th, 0H, 0T, 2U = 0002\n8.   6Th, 0H, 0T, 3U = 6003\n9.   0Th, 0H, 1T, 4U = 0014\n10. 0Th, 0H, 0T, 0U = 0000"
+            android:textSize="23sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="25dp"
             android:fontFamily="sans-serif"
             android:padding="4dp"
-            android:elevation="5dp"
-            android:text="the number you know can be grouped into ones, tens, hundreds, thousands, and so on. Number grouping will help you tell correctly how many thousands, hundreds, tens and unit(ones) are in any given number below ten thousand (10,000 ). the word ones is also know as units. Remember, &quot;unity&quot; means &quot;oneness&quot;. In maths, we use the word &quot;unit&quot; more."
+            android:textColor="#252525"
+            android:text="Wow ! you hae almost come to the end of the programme. Now on to a new sub-topic-Number Arrangement, press the Next button"
             android:textSize="20sp" />
 
 
@@ -49,27 +48,28 @@
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:background="@drawable/button"
+                android:elevation="3dp"
                 android:layout_gravity="bottom|end"
                 android:layout_marginBottom="16dp"
-                android:elevation="3dp"
                 android:text="Next"
                 android:textAllCaps="false" />
 
             <Button
-                android:id="@+id/alcPreviousButton"
+                android:id="@+id/Previous53"
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="150dp"
                 android:background="@drawable/button"
+                android:elevation="3dp"
                 android:layout_height="50dp"
                 android:layout_gravity="bottom|start"
                 android:layout_margin="16dp"
-                android:elevation="3dp"
                 android:text="Previous"
                 android:textAllCaps="false"
-                android:visibility="gone" />
+                android:visibility="visible" />
 
         </FrameLayout>
 
 
     </LinearLayout>
-</ScrollView>
+
+</LinearLayout>

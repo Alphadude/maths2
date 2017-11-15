@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoma.maths2.Fragments.Page10">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        tools:context="com.rudigo.android.maths.BeginnerLevelCounting">
+
+        <TextView
+            android:id="@+id/body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#000"
+            android:padding="4dp"
+            android:text="Taking two more examples we have :"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="6753 - six thousand, seven hundred and "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="                      6TH                    7H "
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="              fifty   three "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="                 5T     3U "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="6753 - 6Th, 7H, 5T, 3U "
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="2007 - two thousand and  seven\n                                  or "
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="           two thousand ,  zero hundred "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="                      2TH                    0H "
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="              zero ten and seven  "
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="                 0T                   7U "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="2007 - 2Th, 0H, 0T, 7U "
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif"
+            android:padding="4dp"
+            android:text="Now you can develop your number grouping skill greatly by carefully studying the next illustrations."
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/nextbutton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:elevation="3dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="16dp"
+                android:text=""
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/Previous53"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="150dp"
+                android:background="@drawable/button"
+                android:elevation="3dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|start"
+                android:layout_margin="16dp"
+                android:text="Previous"
+                android:textAllCaps="false"
+                android:visibility="visible" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

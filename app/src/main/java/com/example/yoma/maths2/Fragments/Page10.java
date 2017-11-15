@@ -14,18 +14,19 @@ import com.example.yoma.maths2.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Page6 extends Fragment {
+public class Page10 extends Fragment {
+
     Fragment frag;
     FragmentTransaction fragTransaction;
 
 
-    public Page6() {
+    public Page10() {
     }
 
     //This method is used to inflate the fragment layout when it's called
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstance) {
-        View rootView = inflater.inflate(R.layout.fragment_page6, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_page10, container, false);
 
 
         Button continueButton = rootView.findViewById(R.id.nextbutton);
@@ -38,7 +39,7 @@ public class Page6 extends Fragment {
             public void onClick(View v) {
                 fragTransaction = getFragmentManager().beginTransaction();
                 fragTransaction.setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left, R.anim.slide_in_left, R.anim.slide_out_right);
-                frag = new Page7();
+                frag = new Page11();
                 fragTransaction.replace(R.id.main_container, frag);
                 fragTransaction.addToBackStack(null);
                 fragTransaction.commit();
@@ -48,4 +49,5 @@ public class Page6 extends Fragment {
 
         return rootView;
     }
+
 }

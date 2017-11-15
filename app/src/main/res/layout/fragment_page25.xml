@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoma.maths2.Fragments.Page25">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The Tally System"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page25_1"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score Board"
+            android:textSize="20sp"
+            />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="A"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally4"/>
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="B"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally5"/>
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:padding="4dp"
+                    android:src="@drawable/tally3"/>
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/nextbutton"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="Next"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:layout_gravity="bottom|right"/>
+
+        </LinearLayout>
+
+</ScrollView>

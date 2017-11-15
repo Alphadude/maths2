@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yoma.maths2.Fragments.Page6">
+    tools:context="com.example.yoma.maths2.Fragments.Page17">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,9 +18,8 @@
             android:layout_marginTop="20dp"
             android:textColor="#000"
             android:fontFamily="sans-serif"
-            android:gravity="center"
             android:padding="4dp"
-            android:text="Number Grouping"
+            android:text="Step 4 :"
             android:textSize="23sp"
             android:textStyle="bold" />
 
@@ -34,7 +33,7 @@
             android:fontFamily="sans-serif"
             android:padding="4dp"
             android:elevation="5dp"
-            android:text="the number you know can be grouped into ones, tens, hundreds, thousands, and so on. Number grouping will help you tell correctly how many thousands, hundreds, tens and unit(ones) are in any given number below ten thousand (10,000 ). the word ones is also know as units. Remember, &quot;unity&quot; means &quot;oneness&quot;. In maths, we use the word &quot;unit&quot; more."
+            android:text="Take the remaining numbers, group them by heart and arrange them under second number. Then press the next button to see how wel you did."
             android:textSize="20sp" />
 
 
@@ -72,4 +71,5 @@
 
 
     </LinearLayout>
+
 </ScrollView>

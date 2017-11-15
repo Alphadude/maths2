@@ -1,0 +1,2527 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    tools:context="com.example.yoma.maths2.Fragments.Page21">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Further Exercise 1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="@string/page21_2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/page21_1"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/a1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="0dp"
+                    android:text="a.2,538,917"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="8dp"
+                    android:text="="
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="2M"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="5Ht"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="3Tt"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="8TH"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="9H"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="1T"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/a8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="7U"
+                    android:textSize="18sp" />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="b.0,000,006 "
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/b2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0M"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0Ht"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0Tt"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0TH"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0H"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0T"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/b8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="6U"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="c.0,001,004  "
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/c2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0M"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0Ht"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/c4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0Tt"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/c5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="1TH"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/c6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0H"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/c7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0T"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/c8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="4U"
+                    android:textSize="18sp" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="d. 3,672,435 "
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/d1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/d3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/d4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/d6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/d7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/d8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="e. 0,000,008"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/e1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/e2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/e3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/e4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/e5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/e6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/e7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="f. 0,003,002"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/f1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/f2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/f3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/f4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/f5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/f6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/f7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="g. 0,952,699"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/g1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/g2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/g3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/g4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/g5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/g6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/g7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="h. 0,028,054"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/h1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/h7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="i. 0,000,555"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/i1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/i2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/i3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/i4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/i5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/i6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/i7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="j. 7,296,013"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="="
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/j1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/j2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/j3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/j4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/j5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/j6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/j7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="@string/page21_2_1"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="a. 7,324,604  18,001 24 5 78,199"
+            android:layout_gravity="center"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="M"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Ht"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Tt"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Th"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="H"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="T"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="U"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="7"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="3"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="2"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="4"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="6"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="8"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="8"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="1"
+                    android:textSize="18sp" />
+
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="2"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="4"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="5"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="0"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="0"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="7"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:text="8"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="1"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="9"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="9"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona1"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona2"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona3"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona4"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona5"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona6"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questiona7"
+                    />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b. 1,217,361  37,459 36 7 61 912"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="M"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Ht"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Tt"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Th"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="H"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="T"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="U"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/bans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/cans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/dans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/eans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/fans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question1"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question2"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question3"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question4"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question5"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question6"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question7"
+                    />
+
+            </TableRow>
+
+
+        </TableLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c. 8 41 105 41,300 7,000,000"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="M"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Ht"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Tt"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="Th"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="H"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="T"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:text="U"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/bans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/bans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/cans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/cans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/dans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/dans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow>
+                <EditText
+                    android:id="@+id/eans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/eans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/fans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+                <EditText
+                    android:id="@+id/fans7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="4dp"
+                    android:textSize="18sp" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc1"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc2"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc3"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc4"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc5"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc6"
+                    />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionc7"
+                    />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/nextbutton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="16dp"
+                android:text="next" />
+
+            <Button
+                android:id="@+id/previousbutton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="150dp"
+                android:background="@drawable/button"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom|start"
+                android:elevation="3dp"
+                android:layout_margin="16dp"
+                android:text="previous"
+                android:visibility="gone" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
